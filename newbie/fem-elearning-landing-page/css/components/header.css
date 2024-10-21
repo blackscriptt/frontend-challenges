@@ -1,0 +1,24 @@
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-block: 16px;
+}
+
+#header .header__logo img {
+    width: 4.955625rem;
+}
+
+@media (width >= 50.625em) {
+    #header {
+        padding-block: 24px;
+    }
+}
+
+
+@media (width >= 75em) { 
+    #header .header__logo img {
+        width: 6.9375rem;
+    }
+}
